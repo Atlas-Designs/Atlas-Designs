@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="620" viewBox="0 0 980 620" role="img" aria-labelledby="title desc">
+  <title id="title">Website preview illustration</title>
+  <desc id="desc">Modern desktop and mobile interface mockup with SEO and performance indicators.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0E6972" />
+      <stop offset="1" stop-color="#083D43" />
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.95" />
+      <stop offset="1" stop-color="#EAF3F3" stop-opacity="0.95" />
+    </linearGradient>
+  </defs>
+  <rect width="980" height="620" rx="34" fill="url(#bg)" />
+  <circle cx="860" cy="70" r="120" fill="#C19B57" fill-opacity="0.28" />
+  <circle cx="120" cy="560" r="150" fill="#C19B57" fill-opacity="0.18" />
+
+  <rect x="70" y="78" width="640" height="420" rx="20" fill="url(#card)" />
+  <rect x="94" y="106" width="592" height="32" rx="10" fill="#D8E7E7" />
+  <circle cx="116" cy="122" r="6" fill="#0E6972" />
+  <circle cx="138" cy="122" r="6" fill="#C19B57" />
+  <circle cx="160" cy="122" r="6" fill="#7AA9A2" />
+
+  <rect x="110" y="164" width="280" height="18" rx="9" fill="#0E6972" fill-opacity="0.82" />
+  <rect x="110" y="194" width="520" height="12" rx="6" fill="#9EB2B0" />
+  <rect x="110" y="214" width="480" height="12" rx="6" fill="#AFBFBE" />
+  <rect x="110" y="234" width="430" height="12" rx="6" fill="#C0CCCB" />
+
+  <rect x="110" y="282" width="250" height="172" rx="14" fill="#EDF3F3" />
+  <rect x="380" y="282" width="250" height="172" rx="14" fill="#EDF3F3" />
+  <rect x="132" y="308" width="206" height="12" rx="6" fill="#1C6870" fill-opacity="0.75" />
+  <rect x="132" y="334" width="176" height="9" rx="5" fill="#A7B7B6" />
+  <rect x="132" y="352" width="196" height="9" rx="5" fill="#BBC8C7" />
+  <rect x="132" y="370" width="168" height="9" rx="5" fill="#CAD3D2" />
+
+  <rect x="402" y="308" width="120" height="120" rx="60" fill="#0E6972" fill-opacity="0.2" />
+  <path d="M430 374 L466 338 L492 364 L532 324" fill="none" stroke="#0E6972" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" />
+
+  <rect x="740" y="150" width="180" height="360" rx="22" fill="url(#card)" />
+  <rect x="762" y="182" width="136" height="16" rx="8" fill="#0E6972" fill-opacity="0.78" />
+  <rect x="762" y="212" width="124" height="10" rx="5" fill="#A5B8B6" />
+  <rect x="762" y="230" width="112" height="10" rx="5" fill="#BDC9C7" />
+  <rect x="762" y="264" width="136" height="92" rx="14" fill="#F0F5F5" />
+  <rect x="776" y="278" width="108" height="10" rx="5" fill="#8EA7A4" />
+  <rect x="776" y="298" width="92" height="8" rx="4" fill="#B5C3C1" />
+  <rect x="776" y="314" width="98" height="8" rx="4" fill="#C4CDCC" />
+
+  <rect x="762" y="376" width="136" height="102" rx="14" fill="#F0F5F5" />
+  <path d="M782 442 C802 414, 830 404, 860 398" fill="none" stroke="#C19B57" stroke-width="6" stroke-linecap="round" />
+  <circle cx="860" cy="398" r="7" fill="#0E6972" />
+</svg>

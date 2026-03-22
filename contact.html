@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Contact Atlas Designs to discuss your SEO-ready, high-performance website project."
+    />
+    <title>Atlas Designs | Contact</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Outfit:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="page-contact">
+    <div class="bg-orbit orbit-two"></div>
+    <div class="bg-orbit orbit-three"></div>
+
+    <header class="site-header" id="siteHeader">
+      <div class="container nav-row">
+        <a href="index.html" class="logo-link" aria-label="Atlas Designs Home">
+          <img src="assets/atlas-logo.svg" alt="Atlas Designs logo" />
+        </a>
+
+        <button
+          class="menu-toggle"
+          id="menuToggle"
+          aria-label="Open menu"
+          aria-expanded="false"
+          aria-controls="mainNav"
+        >
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav id="mainNav" class="main-nav" aria-label="Primary">
+          <a class="nav-link" data-page="index" href="index.html">Home</a>
+          <a class="nav-link" data-page="services" href="services.html">Services</a>
+          <a class="nav-link" data-page="contact" href="contact.html">Contact</a>
+          <a class="btn btn-sm" href="#project-form">Book a Consultation</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero section">
+        <div class="container page-hero-content reveal">
+          <p class="eyebrow">Contact Atlas Designs</p>
+          <h1>Tell us about your website goals and we will build the right plan</h1>
+          <p>
+            Share your current challenges, project priorities, and timeline. We will
+            reply with recommended next steps and a practical project roadmap.
+          </p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container contact-layout">
+          <article class="contact-panel reveal">
+            <h2>Project Enquiry Form</h2>
+            <p>
+              Share your project details below and our team will follow up with next
+              steps.
+            </p>
+
+            <form
+              id="project-form"
+              class="project-form"
+              name="contact"
+              method="POST"
+              action="/thank-you.html"
+              data-netlify="true"
+              netlify-honeypot="bot-field"
+            >
+              <input type="hidden" name="form-name" value="contact" />
+              <p class="hidden-field">
+                <label>
+                  Do not fill this out if you are human:
+                  <input name="bot-field" />
+                </label>
+              </p>
+
+              <label>
+                Full Name
+                <input type="text" name="name" required />
+              </label>
+              <label>
+                Business Email
+                <input type="email" name="email" required />
+              </label>
+              <label>
+                Company Name
+                <input type="text" name="company" required />
+              </label>
+              <label>
+                Website (Optional)
+                <input type="url" name="website" placeholder="https://" />
+              </label>
+              <label>
+                Project Details
+                <textarea id="messageField" name="message" rows="5" maxlength="500" required></textarea>
+              </label>
+              <p class="char-counter" id="charCounter">0 / 500</p>
+              <button class="btn" type="submit">Send Project Brief</button>
+              <p id="formStatus" class="form-status" role="status" aria-live="polite"></p>
+            </form>
+          </article>
+
+          <aside class="contact-sidebar reveal">
+            <figure class="image-card tilt-lite">
+              <img src="assets/project-brief.svg" alt="Project planning and notes illustration" />
+            </figure>
+            <article class="info-card">
+              <h3>What To Include</h3>
+              <p>
+                Your goals, current website status, preferred style direction, and any
+                timeline expectations.
+              </p>
+            </article>
+            <article class="info-card">
+              <h3>What Happens Next</h3>
+              <p>
+                We review your brief, identify priorities, and return a clear proposal
+                path for design, SEO, and build.
+              </p>
+            </article>
+            <article class="info-card">
+              <h3>Project Types</h3>
+              <p>
+                New website builds, redesigns, service landing pages, and full business
+                website modernization.
+              </p>
+            </article>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section section-soft">
+        <div class="container section-head reveal">
+          <p class="eyebrow">FAQs</p>
+          <h2>Common questions before we begin</h2>
+        </div>
+        <div class="container faq-list">
+          <article class="faq-item reveal">
+            <button class="faq-question" type="button" aria-expanded="false">
+              Do you include SEO in every website build?
+            </button>
+            <div class="faq-answer">
+              <p>
+                Yes. SEO structure and technical setup are included as part of our
+                standard development process.
+              </p>
+            </div>
+          </article>
+          <article class="faq-item reveal">
+            <button class="faq-question" type="button" aria-expanded="false">
+              Can you redesign an existing website?
+            </button>
+            <div class="faq-answer">
+              <p>
+                Absolutely. We can redesign existing websites while improving
+                architecture, performance, and content clarity.
+              </p>
+            </div>
+          </article>
+          <article class="faq-item reveal">
+            <button class="faq-question" type="button" aria-expanded="false">
+              Can we start with a smaller phase first?
+            </button>
+            <div class="faq-answer">
+              <p>
+                Yes. We can begin with strategy and core pages, then expand in planned
+                stages as your business evolves.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section cta-strip reveal">
+        <div class="container cta-strip-inner">
+          <div>
+            <p class="eyebrow">Need Service Details?</p>
+            <h2>Review our full service system before sending your brief</h2>
+          </div>
+          <a class="btn" href="services.html">View Services</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <img src="assets/atlas-logo.svg" alt="Atlas Designs" class="footer-logo" />
+        <p>Web Architects for SEO performance, speed, and modern business growth.</p>
+        <small>&copy; <span id="year"></span> Atlas Designs. All rights reserved.</small>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
