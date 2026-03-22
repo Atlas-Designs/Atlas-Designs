@@ -1,5 +1,5 @@
 # https://atlasdesigns.netlify.app/
- Visit our brand's website ^^- An example of our expertise
+ Visit our brand's website ^^- 
 - Details everything we can do for you.
 ## ⚡ The Atlas Standard
 
